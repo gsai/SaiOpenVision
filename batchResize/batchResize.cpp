@@ -20,7 +20,6 @@ int main()
 	for (auto it = files.begin(); it != files.end(); it++)
 		resizeImg(*it, size);
 
-	system("pause");
 	return 0;
 }
 void findFiles(const string path, vector<string>& files)
