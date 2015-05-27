@@ -1,3 +1,10 @@
+/**
+* @author gsai
+* @version 0.1
+* @time 2015/5/27
+**/
+
+
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
@@ -9,8 +16,13 @@ using std::vector;
 using std::string;
 using namespace cv;
 
+//函数声明
+//find the all files in the dir
 void findFiles(const string, vector<string>&);
+
+//resize the image named with the 1st param to the Size of the 2nd param
 void resizeImg(const string, const Size);
+
 int main()
 {
 	string filePath = "D:/cascadeClassifier/positive_images";
