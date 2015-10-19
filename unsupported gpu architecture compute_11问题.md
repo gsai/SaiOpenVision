@@ -7,3 +7,7 @@
   
   全部的**cmake**命令为：
   **cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_TIFF=ON -D BUILD_EXAMPLES=ON -D CUDA_GENERATION=Auto -D BUILD_NEW_PYTHON_SUPPORT=ON ..**
+  
+  
+#注意#
+编译完成后，生成的可执行文件在**opencv-2.4.10/release/bin**目录下
