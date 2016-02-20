@@ -23,3 +23,5 @@
 **1月12日，进行复制，像素copy来产生新的image，image.h 中crop_image，make_image，save_image**
 
 **2月18日，修改代码，编译成功，但不知为何，图片保存不了，考虑crop_image，save_image,或者在系统另外实验一下修改后的代码。**
+
+**图片截取与保存没问题了，发现原来写的网络接口出问题了，要修改。**
